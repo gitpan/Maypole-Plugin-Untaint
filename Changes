@@ -1,5 +1,8 @@
 Revision history for Perl extension Maypole::Plugin::Untaint.
 
+0.04  Sun Oct 18 18:00:00 2004
+        - fixed documentation bug (Stephen Quinney)
+
 0.03  Sun Oct 17 01:00:00 2004
         - renamed to Maypole::Plugin::Untaint
 

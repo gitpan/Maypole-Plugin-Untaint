@@ -5,7 +5,7 @@ use NEXT;
 
 Maypole::Config->mk_accessors('untaint_columns');
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 =head1 NAME
 
@@ -42,13 +42,13 @@ With Maypole::Plugin::Config::YAML:
     template_root: '/home/sri/MyApp/templates'
     uri_base: http://localhost/myapp
     untaint_columns:
-    table1:
-      html:
-        - name
-        - email
-    table2:
-      printable:
-        - lalala
+      table1:
+        html:
+          - name
+          - email
+      table2:
+        printable:
+          - lalala
     
 =head1 DESCRIPTION
 
@@ -69,6 +69,10 @@ sub setup {
 =head1 AUTHOR
 
 Sebastian Riedel, C <sri@oook.de>
+
+=head1 THANKS TO
+
+Stephen Quinney
 
 =head1 LICENSE
 
